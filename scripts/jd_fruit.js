@@ -39,7 +39,6 @@ let jdNotify = false;//是否关闭通知，false打开通知推送，true关闭
 let jdFruitBeanCard = false;//农场使用水滴换豆卡(如果出现限时活动时100g水换20豆,此时比浇水划算,推荐换豆),true表示换豆(不浇水),false表示不换豆(继续浇水),脚本默认是浇水
 let randomCount = $.isNode() ? 0 : 0;
 const JD_API_HOST = 'https://api.m.jd.com/client.action';
-const shareCodes = [`c144db23b6fc4e779cf1112d1e1b052d`];
 const urlSchema = `openjd://virtual?params=%7B%20%22category%22:%20%22jump%22,%20%22des%22:%20%22m%22,%20%22url%22:%20%22https://h5.m.jd.com/babelDiy/Zeus/3KSjXqQabiTuD1cJ28QskrpWoBKT/index.html%22%20%7D`;
 !(async () => {
   await requireConfig();
