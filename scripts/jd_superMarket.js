@@ -321,27 +321,27 @@ async function businessCircleActivity() {
         let Teams = [
           {
             "teamId": "-4msulYas0O2JsRhE-2TA5XZmBQ_1604247312176",
-            "inviteCode": "-4msulYas0O2JsRhE-2TA5XZmBQ"
+            "inviteCode": "Ihsza-6yZP8u7GvRy3MU3g"
           },
           {
             "teamId": "Ih4-a-mwZPUj9Gy6iw_1604277683224",
-            "inviteCode": "eU9Yar_mb_9z92_WmXNG0w"
+            "inviteCode": "Ihsza-6yZP8u7GvRy3MU3g"
           },
           {
             "teamId": "eU9Ya77gZK5z-TqHn3UWhQ_1604277779750",
-            "inviteCode": "eU9YaOnjYK4j-GvWmXIWhA"
+            "inviteCode": "Ih4-bOmxZv8v-Wi6iw"
           },
           {
             "teamId": "eU9Ya-y2N_5z9DvXwyIV0A",
-            "inviteCode": "eU9YaLm0bq4i-TrUzSUUhA"
+            "inviteCode": "Ih4-bOmxZv8v-Wi6iw"
           },
           {
             "teamId": "eU9Ya-y2N_5z9DvXwyIV0A",
-            "inviteCode": "aURoM7PtY_Q"
+            "inviteCode": "Ihsza-6yZP8u7GvRy3MU3g"
           },
           {
             "teamId": "eU9Ya-y2N_5z9DvXwyIV0A",
-            "inviteCode": "eU9YaeS3Z6ol8zrRmnMb1Q"
+            "inviteCode": "Ih4-bOmxZv8v-Wi6iw"
           }
         ]
         Teams = $.updatePkActivityIdRes['Teams'] || Teams;
