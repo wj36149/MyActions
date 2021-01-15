@@ -1,5 +1,5 @@
 # File: .github/workflows/repo-sync.yml
-name: sync-shuye71-scripts
+name: sync-shuye72-scripts
 on:
   schedule:
     - cron: '5 15 * * *'
@@ -7,7 +7,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-shuye71-scripts
+    types: sync-shuye72-scripts
 jobs:
   repo-sync:
     env:
@@ -19,11 +19,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync shuye71-scripts
+      - name: sync shuye72-scripts
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/shuye71/MyActions.git"
+          source_repo: "https://github.com/shuye72/MyActions.git"
           source_branch: "main"
           destination_branch: "main"
           github_token: ${{ github.event.client_payload.PAT || secrets.PAT }}
